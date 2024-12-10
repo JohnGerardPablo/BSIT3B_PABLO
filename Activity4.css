@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display:flex; 
+
+}
+
+.intro{
+    width:100%;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+
+}
+
+.profile{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 30px;
+
+
+}
+
+.img{
+    width: 250px;
+    height: auto;
+}
+
+.profile div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    
+}
+
+.profile div h2{
+    font-size: 30px;
+    font-family: rooster;
+}
+@font-face {
+    font-family: rooster;
+    src: url(/RoosterPersonalUse-3z8d8.ttf);
+}
+
+.achieve {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.menu button{
+    border: none;
+    background-color: transparent;
+    padding: 10px 20px;
+}
+.menu{
+    width: auto;
+    display: flex;
+    gap: 50px;
+    margin-right: 20px;
+
+}
+.socmed button{
+    border:none;
+    background-color: transparent;
+    padding: 5px 10px;
+
+
+}
+.socmed{
+    margin-top: 35px;
+
+}
+button:hover{
+    background: red;
+}
